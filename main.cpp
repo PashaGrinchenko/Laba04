@@ -15,7 +15,7 @@ int main()
 void EnterMatrix(int cols, int rows)
 {
     int **p = new int*[rows];
-    for(int i=0;i<rows;++i)  // n - rows, m - cols
+    for(int i=0;i<rows;++i)
     {
         p[i] = new int[cols];
         for(int j=0;j<cols;++j)
